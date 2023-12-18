@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background:linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+}
+.header img {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header-title{
+  font-size: 1.5em;
+  margin-right: auto;
+}
+
+.header-project{
+  font-size: 0.75em;
+  margin-left: auto;
+  font-weight: 500px;
+}
+
+main {
+  padding: 36px;
+
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 10px;
+}
+.form-inputs{
+  font-family: 'Karla', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+.form-button {
+  grid-column: 1 /-1;
+  color: white;
+  border: 1px none #ccc;
+  background:linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+}
+
+.form-button:hover {
+  background:linear-gradient(90deg, #672280 1.18%, #000000 100%);
+  color: white;
+  cursor: pointer;
+}
